@@ -10,7 +10,7 @@ ing_electronica = 0
 estudiantes_ingienerias = [[], [], []]
 # se abre el documento de encuestas en modo lectura
 with open(
-    "encuesta_ingenieria_10000_respuestas.csv", "r", encoding="utf-8"
+    "../encuesta_ingenieria_10000_respuestas.csv", "r", encoding="utf-8"
 ) as estudiantes:
     # se lee el documento con csv
     encuesta = csv.reader(estudiantes)

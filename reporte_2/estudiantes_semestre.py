@@ -9,7 +9,7 @@ estudiantes_semestre_7 = 0
 estudiante_semestre = [[], [], []]
 
 with open(
-    "encuesta_ingenieria_10000_respuestas.csv", "r", encoding="utf-8"
+    "../encuesta_ingenieria_10000_respuestas.csv", "r", encoding="utf-8"
 ) as estudiantes:
     encuesta = csv.reader(estudiantes)
     next(encuesta)
