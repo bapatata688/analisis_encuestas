@@ -27,4 +27,6 @@ with open(
 total_semestre_5 = len(estudiante_semestre[0])
 total_semestre_6 = len(estudiante_semestre[1])
 total_semestre_7 = len(estudiante_semestre[2])
-print(total_semestre_5, total_semestre_6, total_semestre_7)
+print(
+    f"Total estudiantes semestre 5: {total_semestre_5} Total estudiantes semestre 6: {total_semestre_6} Total estudiantes semestre 7: {total_semestre_7}"
+)
