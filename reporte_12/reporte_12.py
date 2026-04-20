@@ -8,33 +8,30 @@ def procesar_datos_encuesta():
                 if len(datos) == 26:
                     generales = [datos[1], int(datos[2]), datos[3], int(datos[5])]
                     academicas = [int(x) for x in datos[6:15] + datos[16:20]]
-                    tecnologicas = [int(datos[15])] # q10_calidad_internet
+                    tecnologicas = [int(datos[15])]
                     economicas = [datos[4]]
-                    percepcion = [int(x) for x in datos[20:26]]
+                    percepcion = [int(x) for x in datos[20:26]] # q18 está aquí
                     encuestado = [int(datos[0]), generales, academicas, tecnologicas, economicas, percepcion]
                     encuestas.append(encuestado)
     except FileNotFoundError:
         print("Error: No se encontró 'encuesta_ingenieria_10000_respuestas.csv' en la carpeta.")
     return encuestas
 
-def generar_reporte_09():
+def generar_reporte_12():
     datos = procesar_datos_encuesta()
     if not datos: return
     
-    conteos_internet = [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]]
+    suma_satisfaccion = 0
+    total_estudiantes = len(datos)
     
     for encuestado in datos:
-        nivel_internet = encuestado[3][0]
-        for i in range(len(conteos_internet)):
-            if conteos_internet[i][0] == nivel_internet:
-                conteos_internet[i][1] += 1
-                break
-                
-    print("--- Reporte 9: Acceso y calidad de internet en casa (q10) ---")
-    print("Nivel (1=Bajo/Nulo, 5=Excelente) | Cantidad de Estudiantes")
-    print("-" * 55)
-    for item in conteos_internet:
-        print(f" Nivel {item[0]} {' ' * 28} | {item[1]}")
+        suma_satisfaccion += encuestado[5][3]
+        
+    promedio = suma_satisfaccion / total_estudiantes
+    
+    print("--- Reporte 12: Nivel de satisfacción general con la carrera ---")
+    print(f"Total de respuestas evaluadas: {total_estudiantes}")
+    print(f"Promedio general de satisfacción (Escala 1-5): {promedio:.2f}")
 
 if __name__ == "__main__":
-    generar_reporte_09()
+    generar_reporte_12()
