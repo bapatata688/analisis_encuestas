@@ -30,21 +30,21 @@ sistema_encuestas/
 | 3   | Cantidad de estudiantes por semestre                               | Completado |
 | 4   | Cantidad de estudiantes por jornada                                | Completado |
 | 5   | Porcentaje de estudiantes que trabajan y que no trabajan           | Completado |
-| 6   | Promedio general del promedio académico reportado                  | Pendiente  |
-| 7   | Promedio académico por carrera                                     | Pendiente  |
-| 8   | Promedio académico por semestre                                    | Pendiente  |
-| 9   | Cantidad de estudiantes con acceso a internet en casa              | Pendiente  |
-| 10  | Cantidad de estudiantes con computadora propia                     | Pendiente  |
-| 11  | Cantidad de estudiantes según horas de estudio semanal             | Pendiente  |
-| 12  | Nivel de satisfacción general con la carrera                       | Pendiente  |
-| 13  | Nivel de estrés académico general                                  | Pendiente  |
-| 14  | Curso percibido como más difícil                                   | Pendiente  |
-| 15  | Carrera con mayor nivel promedio de estrés                         | Pendiente  |
-| 16  | Relación entre trabajar y promedio académico                       | Pendiente  |
-| 17  | Relación entre acceso a internet y promedio académico              | Pendiente  |
-| 18  | Relación entre horas de estudio y rendimiento académico            | Pendiente  |
-| 19  | Porcentaje de estudiantes interesados en cursos virtuales          | Pendiente  |
-| 20  | Perfil predominante del encuestado según respuestas más frecuentes | Pendiente  |
+| 6   | Promedio general del promedio académico reportado                  | Completado |
+| 7   | Promedio académico por carrera                                     | Completado |
+| 8   | Promedio académico por semestre                                    | Completado |
+| 9   | Cantidad de estudiantes con acceso a internet en casa              | Completado |
+| 10  | Cantidad de estudiantes con computadora propia                     | Completado |
+| 11  | Cantidad de estudiantes según horas de estudio semanal             | Completado |
+| 12  | Nivel de satisfacción general con la carrera                       | Completado |
+| 13  | Nivel de estrés académico general                                  | Completado |
+| 14  | Curso percibido como más difícil                                   | Completado |
+| 15  | Carrera con mayor nivel promedio de estrés                         | Completado |
+| 16  | Relación entre trabajar y promedio académico                       | Completado |
+| 17  | Relación entre acceso a internet y promedio académico              | Completado |
+| 18  | Relación entre horas de estudio y rendimiento académico            | Completado |
+| 19  | Porcentaje de estudiantes interesados en cursos virtuales          | Completado |
+| 20  | Perfil predominante del encuestado según respuestas más frecuentes | Completado |
 
 ---
 
