@@ -7,16 +7,26 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 ## Estructura del repositorio
 
 ```
-sistema_encuestas/
-├── encuesta_ingenieria_10000_respuestas.csv   # Dataset principal
-├── diccionario_variables_encuesta.csv         # Descripción de cada columna
-├── preguntas_encuesta.csv                     # Preguntas originales del instrumento
-├── reporte_general.ipynb                      # Consolidado de los 5 primeros reportes
-├── reporte_1.ipynb
-├── reporte_2.ipynb
-├── reporte_3.ipynb
-├── reporte_4.ipynb
-└── reporte_5.ipynb
+├── diccionario_variables_encuesta.csv
+├── encuesta_ingenieria_10000_respuestas.csv
+├── preguntas_encuesta.csv
+├── README.md
+├── reporte_1
+│   ├── encuestados.py
+│   └── total_encuestados.ipynb
+├── reporte_2
+│   ├── estudiantes_semestre.py
+│   └── estudiantes_semestres.ipynb
+├── reporte_3
+│   ├── estudiantes_carrera.py
+│   └── estudiantes_carreras.ipynb
+├── reporte_4
+│   ├── estudiante_jornada.py
+│   └── estudiantes_jornadas.ipynb
+├── reporte_5
+│   ├── estudiantes_trabajadora.ipynb
+│   └── estudiantes_trabajadores.py
+└── reporte_general.ipynb
 ```
 
 ---
