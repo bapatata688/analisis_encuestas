@@ -7,6 +7,7 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 ## Estructura del repositorio
 
 ```
+.
 ├── diccionario_variables_encuesta.csv
 ├── encuesta_ingenieria_10000_respuestas.csv
 ├── preguntas_encuesta.csv
@@ -14,9 +15,39 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 ├── reporte_1
 │   ├── encuestados.py
 │   └── total_encuestados.ipynb
+├── reporte_11
+│   ├── reporte_11.ipynb
+│   └── reporte_11.py
+├── reporte_12
+│   ├── reporte_12.ipynb
+│   └── reporte_12.py
+├── reporte_13
+│   ├── reporte_13.ipynb
+│   └── reporte_13.py
+├── reporte_14
+│   ├── reporte_14.ipynb
+│   └── reporte_14.py
+├── reporte_15
+│   ├── reporte_15.ipynb
+│   └── reporte_15.py
+├── reporte_16
+│   ├── reporte_16.ipynb
+│   └── reporte_16.py
+├── reporte_17
+│   ├── Reporte_17.ipynb
+│   └── reporte_17.py
+├── reporte_18
+│   ├── reporte_18.ipynb
+│   └── reporte_18.py
+├── reporte_19
+│   ├── reporte_19.ipynb
+│   └── reporte_19.py
 ├── reporte_2
 │   ├── estudiantes_semestre.py
 │   └── estudiantes_semestres.ipynb
+├── reporte_20
+│   ├── reporte_20.ipynb
+│   └── reporte_20.py
 ├── reporte_3
 │   ├── estudiantes_carrera.py
 │   └── estudiantes_carreras.ipynb
@@ -26,7 +57,20 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 ├── reporte_5
 │   ├── estudiantes_trabajadora.ipynb
 │   └── estudiantes_trabajadores.py
+├── reporte_6
+│   ├── promedio_general.py
+│   └── reporte_promedio.ipynb
+├── reporte_7
+│   ├── reporte_7.ipynb
+│   └── reporte_7.py
+├── reporte_8
+│   ├── reporte_8.ipynb
+│   └── reporte_8.py
+├── reporte_9
+│   ├── reporte_9.ipynb
+│   └── reporte_9.py
 └── reporte_general.ipynb
+
 ```
 
 ---
@@ -43,7 +87,7 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 | 6   | Promedio general del promedio académico reportado                  | Completado |
 | 7   | Promedio académico por carrera                                     | Completado |
 | 8   | Promedio académico por semestre                                    | Completado |
-| 9   | Cantidad de estudiantes con acceso a internet en casa              | Completado |
+| 9   | Cantidad de estudiantes con acceso a internet en casa              | Imcompleto |
 | 10  | Cantidad de estudiantes con computadora propia                     | Completado |
 | 11  | Cantidad de estudiantes según horas de estudio semanal             | Completado |
 | 12  | Nivel de satisfacción general con la carrera                       | Completado |
