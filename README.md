@@ -87,7 +87,7 @@ Análisis exploratorio de datos sobre 10,000 estudiantes de ingeniería, organiz
 | 6   | Promedio general del promedio académico reportado                  | Completado |
 | 7   | Promedio académico por carrera                                     | Completado |
 | 8   | Promedio académico por semestre                                    | Completado |
-| 9   | Cantidad de estudiantes con acceso a internet en casa              | Imcompleto |
+| 9   | Cantidad de estudiantes con acceso a internet en casa              | Incompleto |
 | 10  | Cantidad de estudiantes con computadora propia                     | Completado |
 | 11  | Cantidad de estudiantes según horas de estudio semanal             | Completado |
 | 12  | Nivel de satisfacción general con la carrera                       | Completado |
